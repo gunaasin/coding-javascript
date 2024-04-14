@@ -1,11 +1,33 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import { Rabitrun } from './Rabitrun';
 
-export const Game = ({ selectedComponent }) => {
+export const Game = ({ runCodeData: propRunCodeData, game }) => {
+  const [localRunCodeData, setLocalRunCodeData] = useState(false); // Start with 'false'
+
+  useEffect(() => {
+    setLocalRunCodeData(propRunCodeData); // Update localRunCodeData when propRunCodeData changes
+  }, [propRunCodeData]);
+
+  // Function to return the appropriate style based on localRunCodeData
+  const getDisplayStyle = () => {
+    if (localRunCodeData === true) {
+    
+    } else {
+     
+    }
+  }
+
   return (
     <div>
-       <iframe height="380" width="675" src="https://www.youtube.com/embed/HY9-5CTXf2s" title="Closures in Javascript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-      {selectedComponent}
-      {/* <iframe src="https://gunaasin.github.io/firegunfire/" height="380" width="675" title="Iframe Example"></iframe>  */}
+      <div className='te'>
+        {/* You can remove the console.logs now */}
+        {/* {localRunCodeData === true && console.log('guna')}
+        {localRunCodeData === false && console.log('nisha')}
+        {localRunCodeData === null && console.log('null')} */}
+      </div>
+      
+      <Rabitrun styles={localRunCodeData?'play':'noplay'}  game={game}/>
+     
     </div>
-  )
-}
+  );
+};

@@ -60,10 +60,11 @@ const Output = ({ editorRef, language }) => {
         border="px solid"
         borderRadius={4}
         borderColor={isError ? "red.500" : "#333"}
+        
       >
         {output
           ? output.map((line, i) => <Text key={i}>{line}</Text>)
-          : 'Click "Run Code" to see the output here'}
+          : ''}
       </Box>
     </Box>
   );

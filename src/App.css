@@ -150,7 +150,7 @@
 }
 
 .hint-box ul {
-    margin-top: 10px;
+    margin: 10px ;
 }
 
 /* .hint-box :hover{
@@ -158,13 +158,19 @@
     overflow-x: hidden;
 } */
 .hint-box h2 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 450;
 }
 
 .hint-box li {
     line-height: 30px;
-    gap: 25px;
+    margin: 20px 0px;
+    transition: 0.3s ease-out;
+}
+
+.hint-box li:hover{
+    color: rgba(240, 255, 255, 0.705);
+   
 }
 
 .terminal {
@@ -180,6 +186,15 @@
     width: 98%;
     height: 185px;
     background-color: #130d1e;
+}
+.css-1t30oyw{
+    position: relative;
+    top: -50px;
+}
+.css-1ojljio{
+    position: relative;
+    top: -50px;
+
 }
 
 .chakra-stack css-1rafi8n {
@@ -204,4 +219,43 @@
     position: absolute;
     right: -450px;
     top: -423px;
+}
+
+.testcase .blutext {
+    padding-top: 20px;
+    color: rgba(202, 206, 224, 0.74);
+    z-index: -2;
+    position: absolute;
+    top: 5px ;
+    left:  5px;
+    width: 675px;
+   background-color: transparent;
+    height: 380px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.testcase .redtext{
+    font-size: larger;
+    font-weight: 500;
+    border: 1px solid red;
+    padding-top: 20px;
+    color: rgba(255, 41, 41, 0.74);
+    z-index: 2;
+    position: absolute;
+    top: 5px ;
+    left:  5px;
+    width: 675px;
+   background-color: rgba(255, 0, 0, 0.062);
+    height: 380px;
+    position: absolute;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.emptycom{
+    display: none;
 }

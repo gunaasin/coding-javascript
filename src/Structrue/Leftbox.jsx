@@ -1,18 +1,20 @@
 import React from 'react';
 import { Game } from '../Game/Game';
-// import { Rabitrun } from '../Game/Rabitrun'
 
-export const Leftbox = () => {
+export const Leftbox = (prop) => {
   return (
     <div className='leftbox'>
       <div className='game-box'>
-        <Game />
-        {/* <Rabitrun/> */}
+        <Game game={prop.game}/>
       </div>
       <div className="hint-box">
-        <h2 >Step :</h2>
+        <h2 >Instructions :</h2>
         <ul>
-         <Dummidata/><Dummidata/><Dummidata/><Dummidata/><Dummidata/><Dummidata/><Dummidata/><Dummidata/><Dummidata/>
+
+          {prop.steps.map((steps,index)=>(
+            <li key={index}>{steps}</li>
+          ))} 
+         
         </ul>
       </div>
     </div>
@@ -22,10 +24,3 @@ export const Leftbox = () => {
 
 
 
-export const Dummidata= () => {
-  return (
-    <div> <li> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit,
-       amet consectetur adipisicingaudantium natus nobis at reiciendis inventore quo dolorem necessitatibus maiores? </li>
-    </div>
-  )
-}
