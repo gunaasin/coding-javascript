@@ -72,6 +72,8 @@ export const Component1 = () => {
       <Maincom
 
         game={'https://gunaasin.github.io/firegunfire/'}
+        url={'https://videoconsole-lac.vercel.app/?url=https://www.youtube.com/embed/iyLqwyFL0Zc'}
+        
        
         steps={[
           'Define a fetchData function that simulates fetching data from a server asynchronously using a Promise. The function returns a Promise that resolves with the fetched data after a simulated delay of 2 seconds.',

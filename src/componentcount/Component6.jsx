@@ -17,6 +17,7 @@ export const Component6 = () => {
 
       <Maincom title={"Memory Management"}
 game={"http://127.0.0.1:5500/index.html"}
+url={'https://videoconsole-lac.vercel.app/'}
         steps={['Variable Declaration and Memory Allocation , Show how variables are declared and memory is allocated for them in JavaScript.',
      'Step 1: Variable declaration and memory allocation let x = 10; let y = "Hello";',
      'Step 2:  Demonstrate how objects are created and memory is allocated for them.',

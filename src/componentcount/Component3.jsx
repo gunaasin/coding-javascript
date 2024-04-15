@@ -36,6 +36,7 @@ export const Component3 = () => {
     <>
     <Maincom  title={" Prototype Inheritance"}
     game={"https://catprototype.vercel.app/"}
+    url={'https://videoconsole-lac.vercel.app/'}
      steps={['Prototype Chain :',
      ' Every object in JavaScript has an internal property called [[Prototype]], which references another object called its prototype. When you access a property or method on an object, JavaScript first looks for that property or method on the object itself. If it doesnt find it, it looks up the prototype chain until it finds the property or method or reaches the end of the chain. This chain of objects linked by their prototypes is called the prototype chain.',
      'Constructor Functions and Prototypes :',

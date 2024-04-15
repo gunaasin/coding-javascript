@@ -40,7 +40,8 @@ const codesnip = {
       <Maincom title={"Scope"}
 
        game={'https://gunaasin.github.io/scope-coincatch/ '}
-
+       url={'https://videoconsole-lac.vercel.app/?url=https://www.youtube.com/embed/_Ss42Vb1SU4'}
+       
         steps={['Scope refers to the visibility and accessibility of variables and functions in a particular context within a program. In JavaScript, variables and functions have different scopes, which determine where they can be accessed and how long they persist. There are mainly two types of scope in JavaScript',
         'Global Scope:',
         'Variables declared outside of any function or block have global scope. They can be accessed from any part of the codebase, including within functions and blocks. Global variables persist throughout the entire lifetime of the program.',

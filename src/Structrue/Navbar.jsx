@@ -15,7 +15,7 @@ export const Navbar = () => {
      {/* <h3 className="nav-Link"> <Link to={"/Component6"}> Memory Management</Link></h3> */}
      <h3 className="nav-Link"> <Link to={"/Component7"}> Event Handling</Link></h3>
      <h3 className="nav-Link"> <Link to={"/Component8"}> Module System</Link></h3>
-     <h3 className="nav-Link"> <Link to={"/Component9"}> Error Handling</Link></h3>
+     {/* <h3 className="nav-Link"> <Link to={"/Component9"}> Error Handling</Link></h3> */}
      <h3 className="nav-Link"> <Link to={"/Component10"}> Performance Optimization</Link></h3>
   
     </div>
