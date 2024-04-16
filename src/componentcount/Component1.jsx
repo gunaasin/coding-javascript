@@ -72,7 +72,8 @@ export const Component1 = () => {
       <Maincom
 
         game={'https://gunaasin.github.io/firegunfire/'}
-        url={'https://videoconsole-lac.vercel.app/?url=https://www.youtube.com/embed/iyLqwyFL0Zc'}
+       
+        url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7990d5b11a19e4c4f0/36b0387ef01e5893'}
         
        
         steps={[

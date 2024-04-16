@@ -49,7 +49,8 @@ export const Component8 = () => {
     <Maincom  title={" Module System" }
            codesnip={codesnip}
            game={"https://gunaasin.github.io/homeModuleSystem/"}
-           url={'https://videoconsole-lac.vercel.app/'}
+        
+           url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/4490d5b11a1aefc5cd/28d106ad54c6218f'}
         steps={[' Step 1: Setting Up the Iland (Modules) , Define separate JavaScript files, each representing a home (module) with its unique functionality and resources.',
    
       '  const  resources1 =  { "wood" };',

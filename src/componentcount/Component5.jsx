@@ -62,7 +62,8 @@ if (num) {
     <>
     <Maincom  title={" Type Coercion"}
     game={"https://gunaasin.github.io/typecongame/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/d390d5b11a1aeecf5a/6842ea9b6d74ea35'}
       steps={['Type coercion is the process of automatically converting one data type to another in programming. It happens implicitly, often during operations involving different data types. Here a breakdown to explain type coercion:',
         'Step 1:  create let num = "10"; &  let blue = "10";',
       ' Implicit Conversion: Type coercion occurs automatically by the programming language, without the programmer explicitly writing conversion code. It allows the language to handle mixed data types in operations and comparisons.',

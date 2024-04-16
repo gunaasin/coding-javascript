@@ -87,7 +87,8 @@ export const Component7 = () => {
     <>
     <Maincom  title={"Event Handling"}
   game={"https://gunaasin.github.io/superlisatar/"}
-  url={'https://videoconsole-lac.vercel.app/'}
+  
+  url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/ac90d5b11a1aeecc25/94182b441d40f03c'}
     steps={['Event Handling in JavaScript: In JavaScript, event handling is commonly done using the addEventListener method to attach event listeners to DOM elements. Event listeners can listen for various events, such as click, mouseover, keydown, submit, etc.',
    
     ' Event handling in programming refers to the process of capturing and responding to events that occur during the execution of a program. Events can include user interactions, such as clicking a button, typing on a keyboard, or resizing a window, as well as system-generated events like timers or network activity.',

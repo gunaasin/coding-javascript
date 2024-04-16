@@ -85,7 +85,7 @@ export const Component4 = () => {
     <Maincom  title={"Closures"}
     answer={answer}
     game={"https://gunaasin.github.io/closurvillgame/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/4d90d5b11a1aefc8c4/9f0d4106b8260745'}
        steps={['Closures are a fundamental concept in programming where a function retains access to its surrounding lexical scope even after the outer function has finished executing. In simpler terms, a closure "closes over" the variables from its outer scope, allowing the function to access and manipulate those variables, even if they are not directly passed as arguments to the function.',
        'Step 1: The createTarget function is a factory function that creates target objects with private variables such as isHit.',
        'Step 2:  Inside createTarget, there are three inner functions: hit, isTargetHit, and getDistance. These functions form closures, retaining access to the isHit variable even after createTarget has finished executing.',
